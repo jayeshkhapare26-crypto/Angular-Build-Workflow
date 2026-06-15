@@ -1,4 +1,4 @@
-name: Build My Angular New App
+name: Build My Angular App
 
 on:
   push:
