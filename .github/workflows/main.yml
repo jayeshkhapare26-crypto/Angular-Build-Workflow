@@ -1,4 +1,4 @@
-name: Build My Angular App
+name: Build My Angular New App
 
 on:
   push:
@@ -11,14 +11,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4.2.2
-
-      - name: Setup Node.js
+      - name: Setup Node JS
         uses: actions/setup-node@v4.2.0
         with:
           node-version: 22.x
-
       - name: Install Dependencies
         run: npm install
 
       - name: Build Angular App
-        run: npm run build
+        run: npm run build   
